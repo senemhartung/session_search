@@ -1,0 +1,5 @@
+session_search.session_search_admin_form:
+  title: 'Administer Session Search Term Mappings'
+  route_name: session_search.session_search_admin_form
+  description: 'Administer Session Search Term Mappings'
+  parent: system.admin_config_search

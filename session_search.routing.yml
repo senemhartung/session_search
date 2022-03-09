@@ -1,0 +1,9 @@
+session_search.session_search_admin_form:
+  path: '/admin/config/search/session_search'
+  defaults:
+    _form: '\Drupal\session_search\Form\SessionSearchAdminForm'
+    _title: 'Session Search Settings'
+  requirements:
+    _permission: 'configure session search'
+  options:
+    _admin_route: TRUE
